@@ -1,0 +1,421 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 50.03      0.03     0.03   100002     0.00     0.00  put
+ 33.35      0.05     0.02  3422451     0.00     0.00  count
+ 16.68      0.06     0.01    45079     0.00     0.00  rotateLeft
+  0.00      0.06     0.00  5902282     0.00     0.00  isRed
+  0.00      0.06     0.00  3422450     0.00     0.00  maxValue
+  0.00      0.06     0.00  1711225     0.00     0.00  max3
+  0.00      0.06     0.00   126326     0.00     0.00  compareNode
+  0.00      0.06     0.00   100002     0.00     0.00  intervalTreePut
+  0.00      0.06     0.00    63181     0.00     0.00  nodeprint
+  0.00      0.06     0.00    63178     0.00     0.00  max2
+  0.00      0.06     0.00    47074     0.00     0.00  flipColors
+  0.00      0.06     0.00    30189     0.00     0.00  rotateRight
+  0.00      0.06     0.00        8     0.00     0.00  intervalTreeContains
+  0.00      0.06     0.00        8     0.00     0.00  searchNode
+  0.00      0.06     0.00        6     0.00     0.00  intersects
+  0.00      0.06     0.00        5     0.00     0.00  intervalTreeIsEmpty
+  0.00      0.06     0.00        4     0.00     0.00  inorder
+  0.00      0.06     0.00        4     0.00     0.00  intervaltreeInOrder
+  0.00      0.06     0.00        3     0.00     0.00  intervalTreeCreate
+  0.00      0.06     0.00        3     0.00     0.00  intervaltreeDelete
+  0.00      0.06     0.00        2     0.00     0.00  delete
+  0.00      0.06     0.00        2     0.00     0.00  deleteNode
+  0.00      0.06     0.00        2     0.00     0.00  intervalTreeRelease
+  0.00      0.06     0.00        1     0.00     0.00  balance
+  0.00      0.06     0.00        1     0.00     0.74  intervaltreeCheck
+  0.00      0.06     0.00        1     0.00     0.00  intervaltreeCount
+  0.00      0.06     0.00        1     0.00     0.00  intervaltreeHeight
+  0.00      0.06     0.00        1     0.00     0.00  intervaltreeIs23
+  0.00      0.06     0.00        1     0.00     0.00  intervaltreeIsBST
+  0.00      0.06     0.00        1     0.00     0.00  intervaltreeIsBalanced
+  0.00      0.06     0.00        1     0.00     0.00  intervaltreeIsMaxConistent
+  0.00      0.06     0.00        1     0.00     0.74  intervaltreeIsSizeConsistent
+  0.00      0.06     0.00        1     0.00     0.00  isNode23
+  0.00      0.06     0.00        1     0.00     0.00  isNodeBST
+  0.00      0.06     0.00        1     0.00     0.00  isNodeBalanced
+  0.00      0.06     0.00        1     0.00     0.00  isNodeMaxConsistent
+  0.00      0.06     0.00        1     0.00     0.74  isNodeSizeConsistent
+  0.00      0.06     0.00        1     0.00     0.00  nodeHeight
+  0.00      0.06     0.00        1     0.00    60.03  test
+  0.00      0.06     0.00        1     0.00     0.00  testdelete
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 16.66% of 0.06 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    0.06                 main [1]
+                0.00    0.06       1/1           test [2]
+                0.00    0.00       1/1           testdelete [11]
+                0.00    0.00       1/3           intervalTreeCreate [29]
+-----------------------------------------------
+                0.00    0.06       1/1           main [1]
+[2]    100.0    0.00    0.06       1         test [2]
+                0.00    0.06  100000/100002      intervalTreePut [3]
+                0.00    0.00       1/1           intervaltreeCheck [7]
+                0.00    0.00       1/1           intervaltreeCount [15]
+                0.00    0.00       1/3           intervalTreeCreate [29]
+                0.00    0.00       1/4           intervaltreeInOrder [28]
+                0.00    0.00       1/1           intervaltreeHeight [32]
+                0.00    0.00       1/2           intervalTreeRelease [31]
+-----------------------------------------------
+                0.00    0.00       2/100002      testdelete [11]
+                0.00    0.06  100000/100002      test [2]
+[3]     98.8    0.00    0.06  100002         intervalTreePut [3]
+                0.03    0.03  100002/100002      put [4]
+-----------------------------------------------
+                             1460688             put [4]
+                0.03    0.03  100002/100002      intervalTreePut [3]
+[4]     98.8    0.03    0.03  100002+1460688 put [4]
+                0.02    0.00 2995020/3422451     count [5]
+                0.01    0.00   45079/45079       rotateLeft [6]
+                0.00    0.00   30189/30189       rotateRight [10]
+                0.00    0.00 5696632/5902282     isRed [16]
+                0.00    0.00 2995020/3422450     maxValue [17]
+                0.00    0.00 1497510/1711225     max3 [18]
+                0.00    0.00   47074/47074       flipColors [22]
+                             1460688             put [4]
+-----------------------------------------------
+                0.00    0.00       1/3422451     intervaltreeCount [15]
+                0.00    0.00       2/3422451     balance [14]
+                0.00    0.00  120756/3422451     rotateRight [10]
+                0.00    0.00  126356/3422451     isNodeSizeConsistent [9]
+                0.00    0.00  180316/3422451     rotateLeft [6]
+                0.02    0.00 2995020/3422451     put [4]
+[5]     33.3    0.02    0.00 3422451         count [5]
+-----------------------------------------------
+                0.01    0.00   45079/45079       put [4]
+[6]     18.4    0.01    0.00   45079         rotateLeft [6]
+                0.00    0.00  180316/3422451     count [5]
+                0.00    0.00  180316/3422450     maxValue [17]
+                0.00    0.00   90158/1711225     max3 [18]
+-----------------------------------------------
+                0.00    0.00       1/1           test [2]
+[7]      1.2    0.00    0.00       1         intervaltreeCheck [7]
+                0.00    0.00       1/1           intervaltreeIsSizeConsistent [8]
+                0.00    0.00       1/1           intervaltreeIsBST [34]
+                0.00    0.00       1/1           intervaltreeIsMaxConistent [36]
+                0.00    0.00       1/1           intervaltreeIsBalanced [35]
+                0.00    0.00       1/1           intervaltreeIs23 [33]
+-----------------------------------------------
+                0.00    0.00       1/1           intervaltreeCheck [7]
+[8]      1.2    0.00    0.00       1         intervaltreeIsSizeConsistent [8]
+                0.00    0.00       1/1           isNodeSizeConsistent [9]
+-----------------------------------------------
+                              126356             isNodeSizeConsistent [9]
+                0.00    0.00       1/1           intervaltreeIsSizeConsistent [8]
+[9]      1.2    0.00    0.00       1+126356  isNodeSizeConsistent [9]
+                0.00    0.00  126356/3422451     count [5]
+                              126356             isNodeSizeConsistent [9]
+-----------------------------------------------
+                0.00    0.00   30189/30189       put [4]
+[10]     1.2    0.00    0.00   30189         rotateRight [10]
+                0.00    0.00  120756/3422451     count [5]
+                0.00    0.00  120756/3422450     maxValue [17]
+                0.00    0.00   60378/1711225     max3 [18]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[11]     0.0    0.00    0.00       1         testdelete [11]
+                0.00    0.00       2/100002      intervalTreePut [3]
+                0.00    0.00       3/3           intervaltreeDelete [12]
+                0.00    0.00       8/8           intervalTreeContains [23]
+                0.00    0.00       3/4           intervaltreeInOrder [28]
+                0.00    0.00       1/3           intervalTreeCreate [29]
+                0.00    0.00       1/2           intervalTreeRelease [31]
+-----------------------------------------------
+                0.00    0.00       3/3           testdelete [11]
+[12]     0.0    0.00    0.00       3         intervaltreeDelete [12]
+                0.00    0.00       2/2           delete [13]
+                0.00    0.00       5/5           intervalTreeIsEmpty [26]
+                0.00    0.00       3/5902282     isRed [16]
+-----------------------------------------------
+                                   1             delete [13]
+                0.00    0.00       2/2           intervaltreeDelete [12]
+[13]     0.0    0.00    0.00       2+1       delete [13]
+                0.00    0.00       1/1           balance [14]
+                0.00    0.00       3/5902282     isRed [16]
+                                   1             delete [13]
+-----------------------------------------------
+                0.00    0.00       1/1           delete [13]
+[14]     0.0    0.00    0.00       1         balance [14]
+                0.00    0.00       2/3422451     count [5]
+                0.00    0.00       3/5902282     isRed [16]
+                0.00    0.00       2/3422450     maxValue [17]
+                0.00    0.00       1/1711225     max3 [18]
+-----------------------------------------------
+                0.00    0.00       1/1           test [2]
+[15]     0.0    0.00    0.00       1         intervaltreeCount [15]
+                0.00    0.00       1/3422451     count [5]
+-----------------------------------------------
+                0.00    0.00       3/5902282     balance [14]
+                0.00    0.00       3/5902282     delete [13]
+                0.00    0.00       3/5902282     intervaltreeDelete [12]
+                0.00    0.00      17/5902282     intervaltreeIsBalanced [35]
+                0.00    0.00   63178/5902282     isNodeBalanced [39]
+                0.00    0.00  142446/5902282     isNode23 [37]
+                0.00    0.00 5696632/5902282     put [4]
+[16]     0.0    0.00    0.00 5902282         isRed [16]
+-----------------------------------------------
+                0.00    0.00       2/3422450     balance [14]
+                0.00    0.00  120756/3422450     rotateRight [10]
+                0.00    0.00  126356/3422450     isNodeMaxConsistent [40]
+                0.00    0.00  180316/3422450     rotateLeft [6]
+                0.00    0.00 2995020/3422450     put [4]
+[17]     0.0    0.00    0.00 3422450         maxValue [17]
+-----------------------------------------------
+                0.00    0.00       1/1711225     balance [14]
+                0.00    0.00   60378/1711225     rotateRight [10]
+                0.00    0.00   63178/1711225     isNodeMaxConsistent [40]
+                0.00    0.00   90158/1711225     rotateLeft [6]
+                0.00    0.00 1497510/1711225     put [4]
+[18]     0.0    0.00    0.00 1711225         max3 [18]
+-----------------------------------------------
+                0.00    0.00  126326/126326      isNodeBST [38]
+[19]     0.0    0.00    0.00  126326         compareNode [19]
+-----------------------------------------------
+                0.00    0.00   63181/63181       inorder [27]
+[20]     0.0    0.00    0.00   63181         nodeprint [20]
+-----------------------------------------------
+                0.00    0.00   63178/63178       nodeHeight [41]
+[21]     0.0    0.00    0.00   63178         max2 [21]
+-----------------------------------------------
+                0.00    0.00   47074/47074       put [4]
+[22]     0.0    0.00    0.00   47074         flipColors [22]
+-----------------------------------------------
+                0.00    0.00       8/8           testdelete [11]
+[23]     0.0    0.00    0.00       8         intervalTreeContains [23]
+                0.00    0.00       8/8           searchNode [24]
+-----------------------------------------------
+                0.00    0.00       8/8           intervalTreeContains [23]
+[24]     0.0    0.00    0.00       8         searchNode [24]
+                0.00    0.00       6/6           intersects [25]
+-----------------------------------------------
+                0.00    0.00       6/6           searchNode [24]
+[25]     0.0    0.00    0.00       6         intersects [25]
+-----------------------------------------------
+                0.00    0.00       5/5           intervaltreeDelete [12]
+[26]     0.0    0.00    0.00       5         intervalTreeIsEmpty [26]
+-----------------------------------------------
+                              126362             inorder [27]
+                0.00    0.00       4/4           intervaltreeInOrder [28]
+[27]     0.0    0.00    0.00       4+126362  inorder [27]
+                0.00    0.00   63181/63181       nodeprint [20]
+                              126362             inorder [27]
+-----------------------------------------------
+                0.00    0.00       1/4           test [2]
+                0.00    0.00       3/4           testdelete [11]
+[28]     0.0    0.00    0.00       4         intervaltreeInOrder [28]
+                0.00    0.00       4/4           inorder [27]
+-----------------------------------------------
+                0.00    0.00       1/3           testdelete [11]
+                0.00    0.00       1/3           test [2]
+                0.00    0.00       1/3           main [1]
+[29]     0.0    0.00    0.00       3         intervalTreeCreate [29]
+-----------------------------------------------
+                              126356             deleteNode [30]
+                0.00    0.00       2/2           intervalTreeRelease [31]
+[30]     0.0    0.00    0.00       2+126356  deleteNode [30]
+                              126356             deleteNode [30]
+-----------------------------------------------
+                0.00    0.00       1/2           testdelete [11]
+                0.00    0.00       1/2           test [2]
+[31]     0.0    0.00    0.00       2         intervalTreeRelease [31]
+                0.00    0.00       2/2           deleteNode [30]
+-----------------------------------------------
+                0.00    0.00       1/1           test [2]
+[32]     0.0    0.00    0.00       1         intervaltreeHeight [32]
+                0.00    0.00       1/1           nodeHeight [41]
+-----------------------------------------------
+                0.00    0.00       1/1           intervaltreeCheck [7]
+[33]     0.0    0.00    0.00       1         intervaltreeIs23 [33]
+                0.00    0.00       1/1           isNode23 [37]
+-----------------------------------------------
+                0.00    0.00       1/1           intervaltreeCheck [7]
+[34]     0.0    0.00    0.00       1         intervaltreeIsBST [34]
+                0.00    0.00       1/1           isNodeBST [38]
+-----------------------------------------------
+                0.00    0.00       1/1           intervaltreeCheck [7]
+[35]     0.0    0.00    0.00       1         intervaltreeIsBalanced [35]
+                0.00    0.00      17/5902282     isRed [16]
+                0.00    0.00       1/1           isNodeBalanced [39]
+-----------------------------------------------
+                0.00    0.00       1/1           intervaltreeCheck [7]
+[36]     0.0    0.00    0.00       1         intervaltreeIsMaxConistent [36]
+                0.00    0.00       1/1           isNodeMaxConsistent [40]
+-----------------------------------------------
+                              126356             isNode23 [37]
+                0.00    0.00       1/1           intervaltreeIs23 [33]
+[37]     0.0    0.00    0.00       1+126356  isNode23 [37]
+                0.00    0.00  142446/5902282     isRed [16]
+                              126356             isNode23 [37]
+-----------------------------------------------
+                              126356             isNodeBST [38]
+                0.00    0.00       1/1           intervaltreeIsBST [34]
+[38]     0.0    0.00    0.00       1+126356  isNodeBST [38]
+                0.00    0.00  126326/126326      compareNode [19]
+                              126356             isNodeBST [38]
+-----------------------------------------------
+                              126356             isNodeBalanced [39]
+                0.00    0.00       1/1           intervaltreeIsBalanced [35]
+[39]     0.0    0.00    0.00       1+126356  isNodeBalanced [39]
+                0.00    0.00   63178/5902282     isRed [16]
+                              126356             isNodeBalanced [39]
+-----------------------------------------------
+                              126356             isNodeMaxConsistent [40]
+                0.00    0.00       1/1           intervaltreeIsMaxConistent [36]
+[40]     0.0    0.00    0.00       1+126356  isNodeMaxConsistent [40]
+                0.00    0.00  126356/3422450     maxValue [17]
+                0.00    0.00   63178/1711225     max3 [18]
+                              126356             isNodeMaxConsistent [40]
+-----------------------------------------------
+                              126356             nodeHeight [41]
+                0.00    0.00       1/1           intervaltreeHeight [32]
+[41]     0.0    0.00    0.00       1+126356  nodeHeight [41]
+                0.00    0.00   63178/63178       max2 [21]
+                              126356             nodeHeight [41]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [14] balance (intervaltree.c) [15] intervaltreeCount    [16] isRed (intervaltree.c)
+  [19] compareNode (intervaltree.c) [12] intervaltreeDelete [21] max2 (intervaltree.c)
+   [5] count (intervaltree.c) [32] intervaltreeHeight     [18] max3 (intervaltree.c)
+  [13] delete (intervaltree.c) [28] intervaltreeInOrder   [17] maxValue (intervaltree.c)
+  [30] deleteNode (intervaltree.c) [33] intervaltreeIs23  [41] nodeHeight
+  [22] flipColors (intervaltree.c) [34] intervaltreeIsBST [20] nodeprint (client.c)
+  [27] inorder (intervaltree.c) [35] intervaltreeIsBalanced [4] put (intervaltree.c)
+  [25] intersects (intervaltree.c) [36] intervaltreeIsMaxConistent [6] rotateLeft (intervaltree.c)
+  [23] intervalTreeContains    [8] intervaltreeIsSizeConsistent [10] rotateRight (intervaltree.c)
+  [29] intervalTreeCreate     [37] isNode23 (intervaltree.c) [24] searchNode (intervaltree.c)
+  [26] intervalTreeIsEmpty    [38] isNodeBST (intervaltree.c) [2] test
+   [3] intervalTreePut        [39] isNodeBalanced (intervaltree.c) [11] testdelete
+  [31] intervalTreeRelease    [40] isNodeMaxConsistent (intervaltree.c)
+   [7] intervaltreeCheck       [9] isNodeSizeConsistent (intervaltree.c)

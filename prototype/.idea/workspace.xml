@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5c59617-d5cf-44d5-80cc-407da17007ca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Vr5eoxrj99BazZpvNMMjZtNEBg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ky.trees" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IntervalRB">
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ky.trees.BST" />
+      <module name="prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ky.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntervalRB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ky.trees.IntervalRB" />
+      <module name="prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ky.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLRB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ky.trees.LLRB" />
+      <module name="prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ky.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IntervalRB" />
+        <item itemvalue="Application.LLRB" />
+        <item itemvalue="Application.BST" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,ALPHA_COMPARATOR" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5c59617-d5cf-44d5-80cc-407da17007ca" name="Default Changelist" comment="" />
+      <created>1577998470642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577998470642</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="852" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1578182120712">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state x="852" y="249" key="#com.intellij.ide.util.MemberChooser/38.23.1642.1027@38.23.1642.1027" timestamp="1578182120712" />
+    <state x="174" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579635371660">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state x="174" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/38.23.1642.1027@38.23.1642.1027" timestamp="1579635371660" />
+    <state width="779" height="253" key="GridCell.Tab.0.bottom" timestamp="1580155624882">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578249873371" />
+    <state width="779" height="253" key="GridCell.Tab.0.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1580155624882" />
+    <state width="779" height="253" key="GridCell.Tab.0.center" timestamp="1580155624881">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578249873369" />
+    <state width="779" height="253" key="GridCell.Tab.0.center/38.23.1642.1027@38.23.1642.1027" timestamp="1580155624881" />
+    <state width="779" height="253" key="GridCell.Tab.0.left" timestamp="1580155624881">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578249873354" />
+    <state width="779" height="253" key="GridCell.Tab.0.left/38.23.1642.1027@38.23.1642.1027" timestamp="1580155624881" />
+    <state width="779" height="253" key="GridCell.Tab.0.right" timestamp="1580155624882">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578249873370" />
+    <state width="779" height="253" key="GridCell.Tab.0.right/38.23.1642.1027@38.23.1642.1027" timestamp="1580155624882" />
+    <state width="1600" height="362" key="GridCell.Tab.1.bottom" timestamp="1578260452865">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578249873661" />
+    <state width="1600" height="362" key="GridCell.Tab.1.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1578260452865" />
+    <state width="1600" height="362" key="GridCell.Tab.1.center" timestamp="1578260452865">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578249873659" />
+    <state width="1600" height="362" key="GridCell.Tab.1.center/38.23.1642.1027@38.23.1642.1027" timestamp="1578260452865" />
+    <state width="1600" height="362" key="GridCell.Tab.1.left" timestamp="1578260452865">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578249873658" />
+    <state width="1600" height="362" key="GridCell.Tab.1.left/38.23.1642.1027@38.23.1642.1027" timestamp="1578260452865" />
+    <state width="1600" height="362" key="GridCell.Tab.1.right" timestamp="1578260452865">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578249873660" />
+    <state width="1600" height="362" key="GridCell.Tab.1.right/38.23.1642.1027@38.23.1642.1027" timestamp="1578260452865" />
+    <state x="447" y="133" width="824" height="807" key="find.popup" timestamp="1578079097120">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state x="447" y="133" width="824" height="807" key="find.popup/38.23.1642.1027@38.23.1642.1027" timestamp="1578079097120" />
+  </component>
+</project>
